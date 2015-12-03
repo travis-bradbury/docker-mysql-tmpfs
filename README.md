@@ -30,3 +30,4 @@ Environment variables
  - `MYSQL_SQL_TO_RUN`: Chunk of SQL to run when starting. Defaults to ``"GRANT ALL ON \`%_test\`.* TO testrunner@'%' IDENTIFIED BY 'testrunner'";``
  - `MYSQLD_ARGS`: Extra parameters to pass to the mysqld process. Defaults to `"--skip-name-resolve --skip-host-cache"`
  - `MYSQLD_RAM_SIZE`: Amount of memory to allocate to tmpfs datadir. Defaults to `256`
+ - `TIMEZONE`: System timezone specified as a path relative to /usr/share/zoneinfo/. Defaults to `America/New_York`.
